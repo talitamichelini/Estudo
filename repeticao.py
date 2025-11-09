@@ -25,9 +25,23 @@
 
 
 #WHILE contagem regressiva
-contador = 3
-while contador > 0: #ENQUANTO o contador for maior que 0
-    print(contador)
-    contador -= 1 #Negativo por ser contagem regrassiva
-    #se colocar contador += 1, o laço nunca vai acabar, porque o contador sempre vai ser maior que 0.
-print("GO!🏎️")
+# contador = 3
+
+# while contador > 0: #ENQUANTO o contador for maior que 0
+#     print(contador)
+#     contador -= 1 #Negativo por ser contagem regrassiva
+#     #se colocar contador += 1, o laço nunca vai acabar, porque o contador sempre vai ser maior que 0.
+
+# print("GO!🏎️")
+
+
+#WHILE solicitação de senha
+# != (= diferente)
+senha_correta = "1234"
+senha = ""
+
+while senha != senha_correta:
+    senha = input("Senha incorreta, digite novamente:")
+
+print("Senha correta! Acesso liberado.")
+
