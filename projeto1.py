@@ -11,7 +11,7 @@ tentativa = 0
 
 while tentativa != numero_secreto:
     # != diferente
-    tentativa = int(input("Digite um número: "))
+    tentativa = int(input("Encontre o número secreto entre 0 e 10: "))
 
 # para dar dicas ao usuário
     if tentativa < numero_secreto:
