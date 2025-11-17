@@ -21,3 +21,5 @@ while tentativa != numero_secreto:
     else:
         print("Parabéns! Você acertou o número secreto.")
 # Fim do jogo
+
+print("Fim do jogo.")
