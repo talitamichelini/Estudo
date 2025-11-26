@@ -35,7 +35,24 @@ func main() {
 
 	//CONSTANTES
 	// não pode atribuir outro valor
-	const idade = 30
-	fmt.Println(idade)
+	// const idade = 30
+	// fmt.Println(idade)
+	// idade = 31 -> dá erro, porque não da pra adicionar outro valor a uma constante
 	// não precisa ficar colocando "int/ string", o Go se entende
+
+	// ZERO VALUES
+	// dessa maneira os valores saem zerados
+	var x int
+	var y string
+	var z bool
+	var w float64
+	fmt.Printf("Inteiro: %d\n", x)
+	// placeholder %d = decimal (inteiro)
+	fmt.Printf("String: %s\n", y)
+	// placeholder %s = string (texto)
+	fmt.Printf("Bool: %t\n", z)
+	// placeholder %t = booleano (true/false)
+	fmt.Printf("Float: %f\n", w)
+	// placeholder %f = float (decimal)
+	// OU %v para qualquer tipo de valor
 }
