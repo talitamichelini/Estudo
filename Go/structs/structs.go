@@ -77,7 +77,9 @@ func main() {
 	// usando a struct Profissao
 	profissa := Profissao{p3, "Cachorro"}
 	fmt.Println(profissa)
-	fmt.Println(profissa.Nome) // printa nome isolado
-	fmt.Println(profissa.Idade)
-	fmt.Println(profissa.Tipo)
+	fmt.Println(profissa.Nome)  // printa nome isolado
+	fmt.Println(profissa.Idade) // printa idade isolada
+	fmt.Println(profissa.Tipo)  // printa tipo isolado
 }
+
+// métodos e exemplos de uso
