@@ -6,6 +6,7 @@ import "fmt"
 
 func main() {
 	//VARIÁVEIS
+	// sempre haverá um nome e um tipo atribuido
 	// var nome string
 	// nome = "Maria"
 	// fmt.Println(nome)
