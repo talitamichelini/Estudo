@@ -7,7 +7,8 @@ import (
 // Loops - Laços de repetição
 // Repetir tarefas x vezes
 // FOR é o único laço de repetição em Go
-// Só tem o for
+// Só tem o FOR
+// SEMPRE que houver lista, percorrer com loop = FOR RANGE
 
 func main() {
 

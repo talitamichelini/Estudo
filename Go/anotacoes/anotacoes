@@ -1,0 +1,21 @@
+// Um valor só	- if
+// Lista de valores	- for - loop
+// Lista + decisão	- for + if
+
+// Exemplo de pensamento
+// Tenho uma lista?
+// → sim
+
+// Preciso analisar cada elemento?
+// → sim
+
+// Então uso loop
+
+// Preciso guardar resultado?
+// → sim
+
+// Então crio uma variável result
+
+// := (declarar e inicializar uma variável)
+// idade := 20
+// é o mesmo que var idade int = 20
