@@ -53,7 +53,7 @@ func main() {
 	if jogador1 == jogador2 {
 		fmt.Println("Empate!")
 	}
-	if (jogador1 == "pedra" && jogador2 == "tesoura") ||
+	if (jogador1 == "pedra" && jogador2 == "tesoura") || // true && true = true
 		(jogador1 == "papel" && jogador2 == "pedra") ||
 		(jogador1 == "tesoura" && jogador2 == "papel") {
 		fmt.Println("Jogador 1 vence!")
