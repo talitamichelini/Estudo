@@ -33,12 +33,31 @@ func main() {
 
 	// para descobrir se o número é par ou ímpar
 	// é só saber se é divisível por 2
-	numero := 7
-	if numero%2 == 0 { // = 7%2, porcento = resto da divisão
-		// significa que o resto é 0, ímpar
-		fmt.Println("é par") // pode usar atalho com %d
-	} else {
-		fmt.Println("é ímpar") // pode usar atalho com %d
-	}
+	// numero := 7
+	// if numero%2 == 0 { // = 7%2, porcento = resto da divisão
+	// 	// significa que o resto é 0, ímpar
+	// 	fmt.Println("é par") // pode usar atalho com %d
+	// } else {
+	// 	fmt.Println("é ímpar") // pode usar atalho com %d
+	// }
 
+	// pedra, papel, tesoura
+	var jogador1, jogador2 string
+
+	fmt.Print("Jogador 1, escolha pedra, papel ou tesoura: ")
+	fmt.Scanln(&jogador1)
+
+	fmt.Print("Jogador 2, escolha pedra, papel ou tesoura: ")
+	fmt.Scanln(&jogador2)
+
+	if jogador1 == jogador2 {
+		fmt.Println("Empate!")
+	}
+	if (jogador1 == "pedra" && jogador2 == "tesoura") ||
+		(jogador1 == "papel" && jogador2 == "pedra") ||
+		(jogador1 == "tesoura" && jogador2 == "papel") {
+		fmt.Println("Jogador 1 vence!")
+	} else {
+		fmt.Println("Jogador 2 vence!")
+	}
 }
